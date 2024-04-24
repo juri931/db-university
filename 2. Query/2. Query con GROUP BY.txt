@@ -36,4 +36,5 @@
       `department_id` AS `id_dipartimento`
   FROM
       `degrees`
-  GROUP BY `id_dipartimento`
+  GROUP BY 
+      `id_dipartimento`
